@@ -6,7 +6,7 @@ public class DemoPrimeV2 {
       System.out.println("Enter integer to check prime or not : ");
       Scanner sc = new Scanner(System.in);
       num = sc.nextInt();
-      for(int i=2;i<=num;i++)
+      for(int i=2;i<num;i++)
       {
           
           if(num%i==0)
